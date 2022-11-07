@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    background: #0d1117;
+    font-family: poppins, sans-serif;
+}
+
+.main-container {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 12rem;
+    background: #dfdfdf;
+    text-align: center;
+    border-radius: 0.6rem;
+}
+
+.navbar {
+    background: url("../images/navimg.jpg") no-repeat;
+    background-size: 100% 10vh;
+}
+
+
+.nav-container {
+    align-content: center;
+    text-align: center;
+    color: rgb(1, 1, 29);
+    padding: 10px;
+
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #6b6868;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog, article {
+    position: relative;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+
+.article, .title {
+    /*min-height: auto;
+    height: fit-content;*/
+    padding: 0 10px;
+    white-space: normal;
+}
+
+
+.published {
+    margin: 10px 0 0;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.published span {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.article * {
+    margin: 10px 60px;
+    color: #151010;
+    text-align: start;
+}
+
+.blogs-section img {
+
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: -15px;
+    box-shadow: #05051e;
+}
+
+.article-image {
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+.sub-heading {
+    padding: 0 5vw;
+    color: #2d2d2d;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+a:link {
+    /* unvisited link */
+    color: dodgerblue;
+    text-decoration: none;
+    border: none;
+}
+
+a:visited {
+    /* visited link */
+    color: dodgerblue;
+}
+
+a:hover {
+    /* mouse over link */
+    color: rgb(59, 16, 177);
+    border: none;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-container img {
+    width: 45px;
+    height: 45px;
+    margin: 15px 50px;
+}
+
+footer {
+    background: url("../images/footer-background-image.jpg") no-repeat;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
+
+/*!*footer {*/
+/*    align-content: center;*/
+/*    text-align: center;*/
+/*    color: rgb(1, 1, 29);*/
+/*    padding: 0px;*/
+/*    background: #dfdfdf;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+
+/*}*!*/
+/*footer {*/
+/*    text-align: center;*/
+/*    color: rgb(1, 1, 29);*/
+/*    padding: 10px;*/
+/*    background: #dfdfdf;*/
+
+/*    !*display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*!*/
+/*}*/
+
+/*.footer-tel {*/
+/*    background: rgb(197, 195, 197);*/
+/*    border: #090101 solid 1px;*/
+/*    border-radius: 10px;*/
+/*    margin: 10px;*/
+
+/*}*/
+
+/*.footer-whatsapp {*/
+/*    background: rgb(197, 195, 197);*/
+/*    border: #090101 solid 1px;*/
+/*    border-radius: 10px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*.footer-facebook {*/
+/*    background: rgb(197, 195, 197);*/
+/*    border: #090101 solid 1px;*/
+/*    border-radius: 10px;*/
+/*    margin: 10px;*/
+/*}*/
+
+
+@media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+    /*.banner {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background: #6b6868 center;
+        object-fit: cover;
+    }*/
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+    .banner {
+        display: none;
+    }
+
+    .title {
+        font-size: medium;
+    }
+
+    .article {
+        text-align: left;
+
+    }
+
+    .published {
+        text-align-last: left;
+        font-size: small;
+    }
+
+    .nav-container {
+        font-size: small;
+    }
+
+    .sub-heading {
+        padding: 0 5vw;
+        color: #2d2d2d;
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 60px;
+        text-align-last: right;
+    }
+
+    .blog-image {
+        width: 95%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: #05051e;
+    }
+}

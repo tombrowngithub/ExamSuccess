@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+
+    background: #0d1117;
+    font-family: poppins, sans-serif;
+}
+
+.main-container {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 10rem;
+    background: #dfdfdf;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.jamb-label {
+    margin-top: -30px;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
+}
+
+.waec-label {
+    margin-top: -30px;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
+}
+
+.neco-label {
+    margin-top: -30px;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
+}
+
+.napteb-label {
+    font-weight: 600;
+    font-size: medium;
+    margin-top: -30px;
+    color: white;
+}
+
+.navbar {
+    background: url("../images/navimg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: -800px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+    30% {
+        width: 655px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 655px;
+    }
+}
+
+.nav-container {
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.slide {
+    display: inline-block;
+    overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 2vh;
+    color: #d7d705;
+    animation: slide 3s infinite;
+
+}
+
+a:link {
+    /* unvisited link */
+    color: dodgerblue;
+    text-decoration: none;
+    border: none;
+}
+
+a:visited {
+    /* visited link */
+    color: dodgerblue;
+}
+
+a:hover {
+    /* mouse over link */
+    color: rgb(59, 16, 177);
+    border: none;
+}
+
+a:active {
+    /* active link */
+    color: #1e0101;
+}
+
+.footer-container img {
+    width: 45px;
+    height: 45px;
+    margin: 15px 50px;
+}
+
+footer {
+    background: url("../images/footer-background-image.jpg") no-repeat;
+}
+
+footer h3 {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: url("../images/students.jpg");
+}
+
+.logos img {
+    padding: 1.2rem;
+    width: 110px;
+    height: 110px;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.Home-words {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px;
+    background: #010712;
+    color: #d7d705;
+    text-align: left;
+    font-size: 1.15rem;
+}
+
+.text-deal p {
+    font-weight: 450;
+    font-style: italic;
+    color: white;
+    background-color: #6d9cf3;
+}
+
+.consult h3 {
+    background: #1e0101;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.consult span {
+    color: #050200;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.consult span:hover {
+    background: #010712;
+}
+
+.consult label h2:hover {
+    background: #010712;
+}
+
+.consult label {
+    font-size: 15px;
+    color: #001d54;
+    text-align: center;
+
+}
+
+.consult {
+    border: 20px solid #010712;
+    background-size: 100%;
+
+}
+
+/*.blogs-section {
+  width: 100%;
+  padding: 50px 5vw;
+
+}*/
+.blog-image {
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+    /*width: 60%;*/
+    /*height: 250px;*/
+    /*object-fit: cover;*/
+    /*border-radius: 10px;*/
+    /*margin-bottom: -15px;*/
+    /*box-shadow: #05051e;*/
+}
+
+.blogs-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-card {
+    display: inline-block;
+    flex-grow: 1;
+    width: calc(33.3% - 2em);
+
+    margin: 20px 1em 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.blog-overview {
+    margin-top: 5px;
+    text-align: start;
+    overflow: hidden;
+}
+
+.blog-title {
+    font-size: large;
+    text-align: start;
+}
+
+.btn.dark {
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/*mobile view*/
+@media only screen and (min-width: 325px) and (max-width: 425px) {
+    .nav-container {
+        font-size: small;
+    }
+
+    .main-container {
+        display: flex;
+        align-items: center;
+        margin: 0.4rem;
+        background: #dfdfdf;
+        text-align: center;
+        border-radius: 0.5rem;
+    }
+
+    .logos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: url("../images/students.jpg") no-repeat;
+
+    }
+
+    .logos img {
+        padding: 1.2rem;
+        width: 3.125rem;
+        height: 3.125rem;
+        align-content: center;
+        margin-top: 0.625rem;
+    }
+
+    figcaption {
+        font-weight: 600;
+        font-size: small;
+        color: rgb(1, 1, 29);
+    }
+
+    .Home-words {
+        border-top-left-radius: 0.625rem;
+        border-top-right-radius: 0.625rem;
+        padding: 0.313rem;
+        background: #010712;
+        color: #d7d705;
+        text-align: left;
+        font-size: 0.85rem;
+    }
+
+    .consult h3 {
+        background: #1e0101;
+        border-radius: 1.563rem;
+        font-size: 1.1rem;
+        font-weight: 650;
+        font-style: normal;
+        color: white;
+    }
+
+    .consult span {
+        color: #050200;
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+
+    .consult label {
+        font-size: 0.7rem;
+        font-weight: 850;
+        color: #001d54;
+        text-align: center;
+
+    }
+
+    .consult {
+        border: 5px solid #010712;
+        background-size: 100%;
+
+    }
+
+
+    .blog-card {
+        width: 100%;
+        margin-top: -0.188rem;
+        height: 40vh;
+        background: #FFFFFF;
+        box-shadow: 0px 0.375rem 0.75rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.313rem;
+        overflow: hidden;
+    }
+
+    .blog-image {
+        width: 100%;
+        height: 7.5rem;
+        object-fit: cover;
+        box-shadow: #05051e;
+    }
+
+    .blog-overview {
+        font-size: 0.8rem;
+    }
+
+    .blog-title {
+        margin-top: 0.313rem;
+        font-size: 0.99rem;
+    }
+
+    .footer-container img {
+        width: 2.188rem;
+        height: 2.188rem;
+        margin: 0.313rem 1.25rem;
+    }
+
+    footer {
+
+        background: url("../images/footer-background-image.jpg") no-repeat;
+    }
+
+    footer h3 {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #e1d6d6;
+    }
+
+    .copyright {
+        text-align: center;
+        color: white;
+        font-size: smaller;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
