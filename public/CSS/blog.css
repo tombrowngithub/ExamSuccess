@@ -51,12 +51,17 @@ body {
 
 
 .article, .title {
-    /*min-height: auto;
-    height: fit-content;*/
+    min-height: auto;
+    height: fit-content;
     padding: 0 10px;
     white-space: normal;
 }
+.article {
+    text-align: left;
+    padding: 30px;
+    text-wrap: normal;
 
+}
 
 .published {
     margin: 10px 0 0;
@@ -69,12 +74,6 @@ body {
 .published span {
     font-weight: 700;
     font-style: normal;
-}
-
-.article * {
-    margin: 10px 60px;
-    color: #151010;
-    text-align: start;
 }
 
 .blogs-section img {
@@ -147,63 +146,19 @@ footer h3 {
     color: white;
 }
 
-/*!*footer {*/
-/*    align-content: center;*/
-/*    text-align: center;*/
-/*    color: rgb(1, 1, 29);*/
-/*    padding: 0px;*/
-/*    background: #dfdfdf;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
+/*---------------------------------------------------------------------------------------------------------------------*/
 
-/*}*!*/
-/*footer {*/
-/*    text-align: center;*/
-/*    color: rgb(1, 1, 29);*/
-/*    padding: 10px;*/
-/*    background: #dfdfdf;*/
-
-/*    !*display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*!*/
-/*}*/
-
-/*.footer-tel {*/
-/*    background: rgb(197, 195, 197);*/
-/*    border: #090101 solid 1px;*/
-/*    border-radius: 10px;*/
-/*    margin: 10px;*/
-
-/*}*/
-
-/*.footer-whatsapp {*/
-/*    background: rgb(197, 195, 197);*/
-/*    border: #090101 solid 1px;*/
-/*    border-radius: 10px;*/
-/*    margin: 10px;*/
-/*}*/
-
-/*.footer-facebook {*/
-/*    background: rgb(197, 195, 197);*/
-/*    border: #090101 solid 1px;*/
-/*    border-radius: 10px;*/
-/*    margin: 10px;*/
-/*}*/
-
-
-@media only screen and (max-width: 600px) {
-    /*Big smartphones [426px -> 600px]*/
-    /*.banner {
-        width: 100%;
-        height: 200px;
-        background-size: cover;
-        background: #6b6868 center;
-        object-fit: cover;
-    }*/
-}
-
+/*mobile view*/
 @media only screen and (max-width: 425px) {
     /*Small smartphones [325px -> 425px]*/
+    .main-container {
+        display: flex;
+        align-items: center;
+        margin: 0.4rem;
+        background: #dfdfdf;
+        text-align: center;
+        border-radius: 0.5rem;
+    }
     .banner {
         display: none;
     }
@@ -214,7 +169,8 @@ footer h3 {
 
     .article {
         text-align: left;
-
+        padding: 10px;
+        text-wrap: normal;
     }
 
     .published {
@@ -242,5 +198,35 @@ footer h3 {
         border-radius: 10px;
         margin-bottom: 10px;
         box-shadow: #05051e;
+    }
+
+    .footer-container img {
+        width: 2.188rem;
+        height: 2.188rem;
+        margin: 0.313rem 1.25rem;
+    }
+
+    footer {
+
+        background: url("../images/footer-background-image.jpg") no-repeat;
+    }
+
+    footer h3 {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #e1d6d6;
+    }
+
+    .copyright {
+        text-align: center;
+        color: white;
+        font-size: smaller;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }

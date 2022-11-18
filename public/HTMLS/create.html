@@ -12,37 +12,47 @@
             rel="stylesheet"
     />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <link href="../CSS/create.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<div class="banner">
-    <input accept="image/*" hidden id="banner-upload" type="file">
-    <label class="banner-upload-btn" for="banner-upload">
-        <img alt="upload banner" src="/images/upload.jpg">
-    </label>
+
+<div class="container mt-4 shadow-lg rounded bg-gradient">
+    <div class="banner container">
+        <input accept="image/*" hidden id="banner-upload" type="file"/>
+        <label class="banner-upload-btn" for="banner-upload">
+            <img alt="upload banner" src="/images/upload.jpg">
+        </label>
+    </div>
+
+    <div>
+        <label for="floatingInput">Blog title</label>
+        <input id="floatingInput" type="text" class="form-control title">
+
+        <label for="floatingTextarea"></label>
+        <textarea class="form-control article" placeholder="Write the blog here" id="floatingTextarea"></textarea>
+
+    </div>
+
+    <div class="blog-option">
+        <button class="btn dark publish-btn">publish</button>
+        <input accept="image/*" hidden id="image-upload" type="file">
+        <label class="btn grey upload-btn" for="image-upload">Upload Image</label>
+    </div>
+
 </div>
-
-
-<div class="blog">
-    <textarea class="title" placeholder="Blog title..." type="text"></textarea>
-    <textarea class="article" placeholder="Start writing here..." type="text"></textarea>
-</div>
-
-
-<div class="blog-option">
-    <button class="btn dark publish-btn">publish</button>
-    <input accept="image/*" hidden id="image-upload" type="file">
-    <label class="btn grey upload-btn" for="image-upload">Upload Image</label>
-</div>
-
-<!--<script type="module" src="https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js"></script>
-<script type="module" src="https://www.gstatic.com/firebasejs/9.8.3/firebase-firestore.js"></script>
-<script src="/SCRIPT/firebase.js"></script>-->
 
 
 <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
 <script src="/SCRIPT/firebase.js"></script>
 <script src="/SCRIPT/create.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
