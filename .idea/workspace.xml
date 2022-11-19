@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55472eb-ddbf-4ae1-8778-d5f4e0cc1cbd" name="Changes" comment="updated">
-      <change beforePath="$PROJECT_DIR$/.idea/ExamSuccess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExamSuccess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/exam-icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/1668887328275califonia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/1668887434710girl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/1668887496332girl6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase-debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CSS/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/CSS/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CSS/create.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/CSS/create.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/CSS/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/HTMLS/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLS/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/HTMLS/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLS/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/partials/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/HTMLS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/HTMLS/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +56,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ExamSuccess\public\images" />
       <recent name="G:\ExamSuccess\public\images" />
       <recent name="G:\ExamSuccess\public" />
       <recent name="G:\ExamSuccess\HTMLS\images" />
       <recent name="G:\ExamSuccess\images" />
-      <recent name="G:\ExamSuccess\CSS" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,7 +124,8 @@
       <workItem from="1668245827093" duration="1545000" />
       <workItem from="1668282865204" duration="4825000" />
       <workItem from="1668716725246" duration="6143000" />
-      <workItem from="1668793713072" duration="5254000" />
+      <workItem from="1668793713072" duration="5954000" />
+      <workItem from="1668882757836" duration="7592000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1655754401506</created>
@@ -228,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668171315978</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated">
+      <created>1668800404912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668800404913</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

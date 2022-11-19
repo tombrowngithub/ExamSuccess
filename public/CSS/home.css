@@ -19,7 +19,13 @@ body {
     text-align: center;
     border-radius: 0.5rem;
 }
-
+.navbar-exam{
+    display: flex;
+}
+.navbar-exam img{
+    width: 50px;
+    height: 35px;
+}
 .jamb-label {
     margin-top: -30px;
     font-weight: 600;
@@ -115,8 +121,8 @@ body {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 2vh;
-    color: #d7d705;
+    font-size: 2.5vh;
+    color: white;
     animation: slide 3s infinite;
 
 }
@@ -204,39 +210,41 @@ footer h3 {
     background-color: #6d9cf3;
 }
 
-.consult h3 {
+.my-consult h3 {
     background: #1e0101;
     border-radius: 25px;
     font-size: 25px;
     font-weight: 400;
     font-style: normal;
     color: white;
+    text-align: center;
 }
 
-.consult span {
+.my-consult span {
     color: #050200;
     font-size: 20px;
     font-weight: 400;
 }
 
-.consult span:hover {
+.my-consult span:hover {
     background: #010712;
 }
 
-.consult label h2:hover {
+.my-consult label h2:hover {
     background: #010712;
 }
 
-.consult label {
+.my-consult label {
     font-size: 15px;
     color: #001d54;
     text-align: center;
 
 }
 
-.consult {
+.my-consult {
     border: 20px solid #010712;
     background-size: 100%;
+    text-align: start;
 
 }
 
@@ -302,7 +310,6 @@ footer h3 {
 }
 
 
-
 /*---------------------------------------------------------------------------------------------------------------------*/
 
 /*mobile view*/
@@ -329,10 +336,43 @@ footer h3 {
 
     }
 
+
+   .jamb {
+       padding-top: 5rem;
+   }
+   .waec{
+       padding-top: 5rem;
+   }
+   .neco{
+       padding-top: 5rem;
+   }
+   .nebteb{
+       padding-top: 5rem;
+   }
+   .jamb-label{
+       margin-top: -1rem;
+       color: #525200;
+   }
+   .waec-label{
+       margin-top: -1rem;
+       color: #d7d705;
+   }
+   .neco-label{
+       margin-top: -1rem;
+       color: #d7d705;
+   }
+   .napteb-label{
+       margin-top: -1rem;
+       color: #525200;
+   }
+
+.navbar-brand h3{
+    font-size: 1em;
+}
     .logos img {
         padding: 1.2rem;
-        width: 3.125rem;
-        height: 3.125rem;
+        width: 5.25rem;
+        height: 5.25rem;
         align-content: center;
         margin-top: 0.625rem;
     }
@@ -353,7 +393,7 @@ footer h3 {
         font-size: 0.85rem;
     }
 
-    .consult h3 {
+    .my-consult h3 {
         background: #1e0101;
         border-radius: 1.563rem;
         font-size: 1.1rem;
@@ -362,21 +402,24 @@ footer h3 {
         color: white;
     }
 
-    .consult span {
+    .my-consult span {
         color: #050200;
         font-size: 0.7rem;
         font-weight: 700;
+        padding: 0.56rem;
     }
 
-    .consult label {
+    .my-consult label {
         font-size: 0.7rem;
         font-weight: 850;
         color: #001d54;
         text-align: center;
-
     }
 
-    .consult {
+    .my-consult {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         border: 5px solid #010712;
         background-size: 100%;
 

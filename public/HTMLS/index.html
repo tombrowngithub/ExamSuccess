@@ -11,20 +11,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <link href="../CSS/home.css" rel="stylesheet" type="text/css"/>
 </head>
 <body class="bg-dark">
 <!--Nav bar begin-->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="/">
-            <h1>Exam-Success!</h1>
-        </a>
-        <h5><span class="slide">Don't miss our latest and daily updates!</span></h5>
-    </div>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <div class="navbar-exam">
+                <img src="../images/exam-icon.jpg" alt="">
+                <h3>Exam-Success</h3>
+            </div>
 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
 </nav>
 <!--NAv bar end-->
+
+<div>
+    <h6><span class="slide">Don't miss our latest and daily updates!</span></h6>
+</div>
 
 <!-- the body content begin-->
 <div class="main-container">
@@ -76,19 +104,41 @@
         </span>
     </div>
 
-    <div class="consult">
+    <div class="my-consult">
         <h3>You can also consult us for :</h3>
-        <label><h2>* REGISTRATION:</h2></label>
-        <span>You can book a slot to register your exam in our exam centers.</span>
-        <hr/>
-        <label><h2>* ADMISSIONS:</h2></label>
-        <span>Across all universities in Nigeria.</span>
-        <hr/>
-        <label><h2>* TUTORIAL:</h2></label>
-        <span>Online and Offline.</span>
-        <hr/>
-        <label><h2>* MENTORSHIP:</h2></label>
-        <span>We give all kinds of academic mentorship.</span>
+        <div>
+            <label><h2>* REGISTRATION:</h2></label>
+            <div>
+                <span>You can book a slot to register your exam in our exam centers.</span>
+            </div>
+            <hr/>
+        </div>
+
+
+        <div>
+            <label><h2>* ADMISSIONS:</h2></label>
+            <div>
+                <span>Across all universities in Nigeria.</span>
+            </div>
+            <hr/>
+        </div>
+
+
+        <div>
+            <label><h2>* TUTORIAL:</h2></label>
+            <div>
+                <span>Online and Offline.</span>
+            </div>
+            <hr/>
+        </div>
+
+        <div>
+            <label><h2>* MENTORSHIP:</h2></label>
+            <div>
+                <span>We give all kinds of academic mentorship.</span>
+            </div>
+        </div>
+
 
     </div>
 
@@ -138,5 +188,9 @@
 <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
 <script src="/SCRIPT/firebase.js"></script>
 <script src="/SCRIPT/index.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 </html>
